@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header nav {
+    background-color: #051d29;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    align-items: center;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+header nav img {
+    width: 150px;
+    padding-right: 50px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+header nav a:hover {
+    color: #ffce76;
+    transition: 0.3s;
+}
+
+#text {
+    background-color: #F9F9F9;
+    padding: 10% 1%;
+    color: #051d29;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#text h1 {
+    font-size: 3em;
+    padding: 10px;
+}
+
+#text h2 {
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+#text p {
+    font-size: 1em;
+}
+
+main {
+    padding: 3% 10%;
+}
+
+ul {
+    list-style: none;
+    font-family: Roboto;
+    color: #ffce76;
+    padding: 1.5%;
+}
+
+ul li {
+    display: flex;
+    background-color: #051d29;
+    padding: 25px 50px;
+    margin: 15px 0;
+    transition: .3s;
+    font-weight: 400;
+}
+
+ul :hover {
+    transform: translateY(-8%)
+}
+
+ul li span:nth-child(1) {
+    width: 10%;
+}
+
+
+}
+ul li span:nth-child(2) {
+    font-family: Rubik;
+    font-size: 1.5em;
+}
+ul li span:nth-child(3) {
+    text-align: right;
+    width: 1000px;
+    text-align: right;
+}
+#plus {
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+}
+#plus a {
+    text-decoration: none;
+    color: #051d29;
+    padding: 1%;
+    border-radius: 5%;
+    background-color: #f9f9f9;
+}
+#plus a:hover {
+    background-color: #ffce76;
+    color: #051d29;
+    transition: 0.3s;
+}
+
+/* ------------------FOOTER------------------ */
+footer {
+    margin: 0 auto;
+    padding: 5% 3%;
+    text-align: center;
+}
+footer a {
+    color: #051d29;
+    text-decoration: none;
+    font: 20px Rubik;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+}
+footer {
+    background: #ffce76;
+}
+footer a:before {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #fff;
+    transition: all 0.3s;
+}
+footer a:after {
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #fff;
+    transition: all 0.3s;
+}
+footer a:hover:before,
+footer a:hover:after {
+    opacity: 1;
+    width: 100%;
+}

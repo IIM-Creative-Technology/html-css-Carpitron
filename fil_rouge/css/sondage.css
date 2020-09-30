@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header nav {
+    background-color: #051d29;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    align-items: center;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+header nav img {
+    width: 150px;
+    padding-right: 50px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+header nav a:hover {
+    color: #ffce76;
+    transition: 0.3s;
+}
+
+#text {
+    background-color: #F9F9F9;
+    padding: 10% 1%;
+    color: #051d29;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#text h1 {
+    font-size: 3em;
+    padding: 10px;
+}
+
+#text h2 {
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+#text p {
+    font-size: 1em;
+}
+
+ul {
+    list-style: none;
+    font-family: Rubik;
+    color: #ffce76;
+    width: 50%;
+    padding: 1.5% 5%;
+}
+
+ul li {
+    background-color: #051d29;
+    padding: 1.5% 5%;
+}
+
+ul li span {
+    width: 10%;
+    font-size: 1.5em;
+}
+
+main h1 {
+    font-size: 2em;
+    font-family: Roboto;
+    color: #051d29;
+    padding: 1.5% 5%;
+}
+
+main p {
+    padding: 1.5% 5%;
+    font-size: 1.1em;
+    font-family: Roboto;
+    color: #051d29;
+}
+
+#prono {
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+}
+
+#prono a {
+    text-decoration: none;
+    color: #051d29;
+    padding: 1%;
+    margin: 5%;
+    border-radius: 5%;
+    background-color: #ffce76;
+}
+
+#prono a:hover {
+    background-color: #051d29;
+    color: #ffce76;
+    transition: 0.3s;
+}
+
+footer {
+    margin: 0 auto;
+    padding: 5% 3%;
+    text-align: center;
+}
+
+footer a {
+    color: #051d29;
+    text-decoration: none;
+    font: 20px Rubik;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+}
+
+footer {
+    background: #ffce76;
+}
+
+footer a:before {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #fff;
+    transition: all 0.3s;
+}
+
+footer a:after {
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #fff;
+    transition: all 0.3s;
+}
+
+footer a:hover:before,
+footer a:hover:after {
+    opacity: 1;
+    width: 100%;
+}
